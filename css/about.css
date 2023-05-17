@@ -1,0 +1,125 @@
+/* about.css */
+
+.about-us {
+  /* padding: 4rem 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-hero {
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 100px;
+  padding-bottom: 140px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 735px;
+}
+
+
+.team-member {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  flex-basis: 500px;
+  height: 300px;
+  border-radius: 2rem;
+  background-color: #fff;
+  border: 1px solid transparent;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* .team-member img {
+  width: 100%;
+  margin-bottom: 1rem;
+} */
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.heading-2 {
+  width: auto;
+  max-width: 961px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family: Alliance, sans-serif;
+  font-size: 30px;
+  line-height: 112%;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -1.5px;
+  color: #777;
+}
+
+.paragraph {
+  max-width: 640px;
+  font-family: Inter, sans-serif;
+  color: #5f6486;
+  font-size: 16px;
+  line-height: 137%;
+  text-decoration: none;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:stretch;
+  margin: 50px;
+  gap: 20px;
+}
+
+.member-heading {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.member-heading img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #777;
+}
+
+.team-member .member-info {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  /* align-items: stretch; */
+  /* justify-content: flex-end; */
+}
+
+.member-info p {
+  flex-grow: 1;
+}
+
+.member-footer button {
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  padding: 3px;
+  flex-shrink: 0;
+}

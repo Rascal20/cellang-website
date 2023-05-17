@@ -1,0 +1,36 @@
+/* contact.css */
+
+.contact-us {
+    padding: 4rem 0;
+  }
+  
+  .contact-us p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    background: #0077cc;
+  
