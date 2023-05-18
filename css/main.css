@@ -1,11 +1,12 @@
 /* main.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #212121;
     background-color: #FFFFFF;
     line-height: 1.6;
@@ -48,7 +49,7 @@ input[type="submit"]:hover {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 1.6;
     color: #333;
 }
@@ -56,7 +57,6 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem;
 }
 
 h2 {
@@ -122,18 +122,26 @@ nav ul li a:hover {
 /* Hero section styles */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-bg.jpg') no-repeat center center / cover;
-    height: 80vh;
+    height: 70vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     flex-direction: column;
-    color: #fff;
-    text-align: center;
+    text-align: left;
+
+    background-image: url('images/hero.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .hero h1 {
     font-size: 3rem;
+    margin-right: 12vw;
     margin-bottom: 1rem;
+    margin-top: 15vh;
+    color: #1565C0;
 }
 
 .hero p {
@@ -188,6 +196,23 @@ nav ul li a:hover {
     align-items: center;
 }
 
+h2 {
+    font-size: 2.4rem;
+}
+
+.sign-up {
+    padding: 2%;
+    text-align: center;
+}
+
+.sign-up p {
+    padding: 2%;
+}
+
+.sign-up h3 {
+    text-transform: uppercase;
+}
+
 .feature {
     position: relative;
     display: flex;
@@ -225,12 +250,9 @@ nav ul li a:hover {
 .feature img {
     position: relative;
     top: 72px;
-    width: auto;
-    height: 650px;
-    max-width: 100%;
-    border: 1px solid #d9def1;
-    border-radius: 32px;
-    object-fit: contain;
+    max-width: 90%;
+    height: auto;
+    padding-bottom: 15%;
 }
 
 .feature .info {
@@ -239,6 +261,10 @@ nav ul li a:hover {
 
 .feature-img {
     flex-shrink: 1;
+}
+
+.text {
+    max-width: 70%;
 }
 
 
